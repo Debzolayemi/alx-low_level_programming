@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints numbers of base 10 starting from 0 with commas and spaces
+ * main - Prints numbers between 00 and 89
  *
  * Return: Always 0
  */
@@ -10,7 +10,7 @@ int main(void)
 
 	i = 48;
 	e = 48;
-	
+
 	while (e < 58)
 	{
 		i = 48;
@@ -34,4 +34,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
