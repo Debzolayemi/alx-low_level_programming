@@ -25,11 +25,11 @@ int main(void)
 					if (op1 < op2)
 					{
 						putchar(h);
-						putchar(g)
+						putchar(g);
 						putchar(' ');
 						putchar(e);
 						putchar(i);
-						if (h == 57 && g == 56 && i == 57 && e == 56)
+						if (h == 57 && g == 56 && e == 57 && i == 57)
 							break;
 						putchar(',');
 						putchar(' ');
