@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i, e;
+	int i, e, g;
 
 	i = 48;
 	e = 48;
