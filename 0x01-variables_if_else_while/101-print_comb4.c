@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * main - Prints numbers between 012 to 789
+ * main - Prints numbers of base 10 starting from 0 with commas and spaces
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int i, e, g;
+	int i, e;
 
 	i = 48;
 	e = 48;
@@ -20,7 +20,7 @@ int main(void)
 			g = 48;
 			while (g < 58)
 			{
-				if (e != i && e != g && i != g && e < i && i < g)
+				if (e != i && e !=g && i != g && e < i && i < g)
 				{
 					putchar(e);
 					putchar(i);
