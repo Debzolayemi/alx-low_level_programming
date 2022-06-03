@@ -1,4 +1,3 @@
-#!/bin/bash
 /*
  * file: 4-puts.c
  * Auth: Olayemi
