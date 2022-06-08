@@ -5,7 +5,7 @@
  *
  * Return: the last digit
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int l;
 
@@ -13,7 +13,7 @@ int print_last_digit(int)
 	if (l < 0)
 	{
 		_putchar(-1 + 48);
-		return(-1);
+		return (-1);
 	}
 	else
 	{
