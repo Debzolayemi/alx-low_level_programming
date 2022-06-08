@@ -24,7 +24,7 @@ int main(void)
 	fib1_half2 = fib1 % 10000000000;
 	fib2_half2 = fib2 % 10000000000;
 	
-	for (count = 93; count < 99; count++)
+	for (c = 93; c < 99; c++)
 	{
 		half1 = fib1_half1 + fib2_half1;
 		half2 = fib1_half2 + fib2_half2;
@@ -35,7 +35,7 @@ int main(void)
 		}
 		
 		printf("%lu%lu", half1, half2);
-		if (count != 98)
+		if (c != 98)
 			printf(", ");
 		
 		fib1_half1 = fib2_half1;
@@ -46,4 +46,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
