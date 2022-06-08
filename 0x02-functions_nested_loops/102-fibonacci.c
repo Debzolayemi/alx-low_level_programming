@@ -7,21 +7,21 @@
 int main(void)
 {
 	int c;
-	long int n1, n2, fn;
+	unsigned long fib1 = 0, fib2 = 2, sum;
 
-	n1 = 1;
-	n2 = 2;
-	printf("%1d, %1d", n1, n2);
 	for (c = 0; c < 50; c++)
 	{
-		fn = n1 + n2;
-		printf(", %1d", fn);
-		n1 = n2;
-		n2 = fn;
+		sum = fib1 + fib2;
+		printf("%lu", sum);
+
+		fib1 = fib2;
+		fib2 = sum;
+
 		if (c == 49)
 			printf("\n");
 		else
 			printf(", ");
 	}
+
 	return (0);
 }
