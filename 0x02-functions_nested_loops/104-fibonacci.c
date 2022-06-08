@@ -7,7 +7,7 @@
 int main(void)
 {
 	int c;
-	unsigned long fib1 = 0, fib2 = 2, sum;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 	unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
 	unsigned long half1, half2;
 
@@ -23,7 +23,6 @@ int main(void)
 	fib2_half1 = fib2 / 10000000000;
 	fib1_half2 = fib1 % 10000000000;
 	fib2_half2 = fib2 % 10000000000;
-	
 	for (c = 93; c < 99; c++)
 	{
 		half1 = fib1_half1 + fib2_half1;
@@ -33,7 +32,6 @@ int main(void)
 			half1 += 1;
 			half2 %= 10000000000;
 		}
-		
 		printf("%lu%lu", half1, half2);
 		if (c != 98)
 			printf(", ");
