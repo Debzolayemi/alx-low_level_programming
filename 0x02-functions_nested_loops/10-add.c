@@ -3,7 +3,7 @@
  * add - Add two integers
  * and returns
  *
- * @a: first number 
+ * @a: first number
  * @b: second number
  *
  * Return: Addition of the two numbers
