@@ -22,6 +22,5 @@ int main(void)
 
 	}
 	printf("%.0f\n", tot_sum);
-	
 	return (0);
 }
