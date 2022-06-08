@@ -1,21 +1,26 @@
 #include "main.h"
 /**
- * print_sign - checks if an alphabet is lowercase
+ * print_sign - checks the sign of an input number
  * @n: The input number
  *
- * Return: 1 if character is lowercase, else 0
+ * Return: 1 if number is + or -, else 0
  */
 int print_sign(int n)
 {
 	if (n > 0)
+	{
 		_putchar(43);
 		return (1);
+	}
 	else if (n < 0)
+	{
 		_putchar(45);
 		return (-1);
+	}
 	else
+	{
 		_putchar(48);
 		return (0);
-
+	}
 	_putchar('\n');
 }
